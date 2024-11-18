@@ -11,7 +11,7 @@ Install the necessary Python dependencies
 pip install -r requirements.txt
 ```
 Run the YOLOv5 using Python code below:
-```
+```python
 import torch
 import cv2
 from yolov5 import YOLOv5
