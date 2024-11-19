@@ -20,7 +20,7 @@ Run the YOLOv5 using Python code below:
 import cv2
 from ultralytics import YOLO
 
-model = YOLO("yolo11n.pt")
+model = YOLO("yolov5su.pt")
 capture = cv2.VideoCapture(0)
 
 while True:
@@ -34,3 +34,4 @@ while True:
 
 cv2.destroyAllWindows()
 ```
+The inference Speed is really slow so if you want it to go faster then you can use Edge TPU model
